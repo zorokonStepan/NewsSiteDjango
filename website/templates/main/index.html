@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Главная страница</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Mauris commodo quis imperdiet massa
+            tincidunt nunc pulvinar sapien. Egestas egestas fringilla phasellus faucibus
+            scelerisque eleifend donec pretium vulputate. Quam viverra orci sagittis eu.
+            Luctus accumsan tortor posuere ac ut. Lobortis elementum nibh tellus molestie nunc.
+            Eget duis at tellus at urna condimentum mattis. Tempor orci dapibus ultrices in iaculis.
+            Nisl tincidunt eget nullam non. Viverra maecenas accumsan lacus vel facilisis volutpat est velit.
+            Fermentum iaculis eu non diam phasellus. Proin libero nunc consequat interdum varius sit amet.
+            Commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
+        </p>
+        <div class="buttons">
+            <a href="{% url 'about' %}"><button class="btn btn-warning">На страницу: про нас</button></a>
+            <a href="{% url 'contact' %}"><button class="btn btn-warning">На страницу: контакты</button></a>
+        </div>
+    </div>
+{% endblock %}
