@@ -31,22 +31,21 @@ aside h3 {
 }
 
 aside ul {
-    list-style: none;  /*убрать точки у каждого li*/
+    list-style: none;
 }
 
 aside ul li, aside ul a{
     color: #fff;
     display: block;
     margin-top: 20px;
-    text-decoration: none;  /* убрать нижнее подчеркивание */
-    /*transition: all 0.5s ease;  !* плавность ко всем *!*/
-    transition: transform 0.5s ease;  /* плавность только к transform */
+    text-decoration: none;
+    transition: transform 0.5s ease;
 }
 
 aside ul li:hover, aside ul a:hover {
     color: #eb5959;
-    text-decoration: none;  /* убрать нижнее подчеркивание */
-    transform: scale(1.05);  /* увеличение текста */
+    text-decoration: none;
+    transform: scale(1.05);
 }
 
 main .features {
@@ -64,7 +63,6 @@ main .features h1 {
 main .features h1#news_home {
     font-size: 50px;
     margin: 0 34%;
-    text-align: left;
     float: left;
 }
 

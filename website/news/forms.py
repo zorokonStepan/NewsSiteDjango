@@ -6,7 +6,7 @@ from .models import Article
 class ArticleForm(ModelForm):
     class Meta:
         model = Article
-        fields = ['title', 'anons', 'full_text', 'date']  # поля которые будут отображаться в форме
+        fields = ['title', 'anons', 'full_text', 'date']
 
         widgets = {
             "title": TextInput(attrs={
